@@ -1,0 +1,88 @@
+.welcome-back-login {
+    align-self: stretch;
+    position: relative;
+  }
+  .account-circle-icon6,
+  .apartment-icon {
+    width: 24px;
+    height: 24px;
+    position: relative;
+    z-index: 1;
+  }
+  .forget-password-link,
+  .login-input {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .login-input {
+    align-self: stretch;
+    flex-direction: column;
+    gap: var(--gap-61xl);
+  }
+  .forget-password-link {
+    height: 234px;
+    flex-direction: row;
+    padding: 0 var(--padding-5xl) var(--padding-87xl);
+    box-sizing: border-box;
+  }
+  .forget-password {
+    position: relative;
+  }
+  .forget-password-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 0 var(--padding-8xs) 0 var(--padding-12xs);
+  }
+  .login1 {
+    align-self: stretch;
+    flex: 1;
+    z-index: 1;
+  }
+  .frame-parent2 {
+    align-self: stretch;
+    width: 158px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-32xl);
+  }
+  .account-icon,
+  .c-r-m-logo {
+    display: flex;
+    align-items: flex-start;
+    max-width: 100%;
+  }
+  .c-r-m-logo {
+    width: 424px;
+    height: 139px;
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 var(--padding-xl);
+    box-sizing: border-box;
+    color: var(--color-deepskyblue-100);
+    font-family: var(--font-roboto);
+  }
+  .account-icon {
+    align-self: stretch;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: var(--gap-54xl);
+    text-align: left;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+    font-family: var(--font-poppins);
+  }
+  @media screen and (max-width: 450px) {
+    .forget-password,
+    .welcome-back-login {
+      font-size: var(--text-body-16pt-1rem-size);
+    }
+    .account-icon {
+      gap: 36px 73px;
+    }
+  }
+  
